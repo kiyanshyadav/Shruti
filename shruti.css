@@ -104,7 +104,47 @@ body {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
 }
+/* CHAT SECTION */
+.chat-section {
+    margin-top: 20px;
+    text-align: center;
+}
 
+.talk-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.8);
+    animation: pulseText 1s infinite alternate;
+}
+
+@keyframes pulseText {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp-button {
+    background: #25D366;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(37, 211, 102, 0.5);
+    transition: 0.3s;
+}
+
+.whatsapp-button:hover {
+    background: #1EBE5D;
+    transform: scale(1.1);
+}
+
+.whatsapp-button:active {
+    transform: scale(0.95);
+}
 /* FOOTER */
 footer {
     margin-top: 30px;
