@@ -152,4 +152,46 @@ footer {
     background: black;
     font-size: 16px;
 }
+/* NOODLES BUTTON */
+.noodles-btn {
+    font-size: 20px;
+    background: #ffcc00;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
 
+.noodles-btn:hover {
+    background: #ffaa00;
+    transform: scale(1.1);
+}
+
+.noodles-btn:active {
+    transform: scale(0.9);
+}
+
+/* VOICE MESSAGE BUTTON */
+.voice-btn {
+    font-size: 20px;
+    background: #ff4b5c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.voice-btn:hover {
+    background: #ff1a40;
+    transform: scale(1.1);
+}
+
+.voice-btn:active {
+    transform: scale(0.9);
+}
