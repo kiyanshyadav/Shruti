@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodles Surprise</title>
+    <link rel="stylesheet" href="noodles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Dekhne k liye ispe click karoo!</h1>
+        <button class="voice-btn" onclick="playAudio()">🎙️ Click to hear</button>
+        <audio id="noodlesAudio" src="voice.mp3"></audio> <!-- Add your voice message here -->
+    </div>
+
+    <script>
+        function playAudio() {
+            document.getElementById("noodlesAudio").play(); // Plays the audio
+        }
+    </script>
+
+</body>
+</html>
